@@ -114,8 +114,9 @@ aside.home-items img {
 }
 
 .resume .project-container {
-    width: 25vw;
+    width: 50vw;
     height: 50vh;
+    margin-bottom: 5em;
 }
 
 .project-header{
@@ -124,11 +125,13 @@ aside.home-items img {
 
 .portfolio{
     display: flex;
+    flex-direction: column;
     justify-content: flex-start;
+    align-items: center;
 }
 
 .resume img {
-    width: 20vw;
+    width: 40vw;
     height: 30vh;
 }
 
